@@ -1,0 +1,28 @@
+.card--container{
+    width: 70%;
+    max-width: 700px;
+    box-shadow: 0 1px 5px 2px #1B365C;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: minmax(300px, max-content)
+    repeat(auto-fill, 200px) 20%;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    color: #1B365C;
+}
+.card--container:hover{
+    background-color: #637E99;
+}
+
+.card--title{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.card--category{
+    margin-top: 5px;
+}
+
